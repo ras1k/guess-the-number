@@ -10,10 +10,13 @@
     <h1>Guess the Number Game</h1>
   <form onsubmit="event.preventDefault(); checkGuess();">
     <p id="range">Enter a number between 1 and 100:</p>
-    <input type="number" id="userGuess"> <br><br>
+    <input type="number" step="0.01" id="userGuess"> <br><br>
     <button type="submit">Submit Guess</button> <br>
     <button type="button" id="resetBtn" onclick="resetGame()">Reset Game</button>
   </form>
   <p id="message"></p>
+
+
+  <script src="script.js"></script>
 </body>
 </html>
