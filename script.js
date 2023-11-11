@@ -6,7 +6,7 @@ function checkGuess() {
   attempts++;
 
   if (userGuess == secretNumber) {
-    document.getElementById('message').innerHTML = `alert('Congratulations! You guessed the number in ${attempts} attempts.')`;
+    document.getElementById('message').innerHTML = `Congratulations! You guessed the number in ${attempts} attempts.`;
     document.getElementById('range').innerHTML = `The correct number was ${secretNumber}.`;
   } else if (userGuess < secretNumber) {
     document.getElementById('message').innerHTML = 'Too low. Try again.';

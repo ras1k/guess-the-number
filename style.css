@@ -32,7 +32,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
   button {
-    padding: 8px 6px;
+    padding: 10px 15px;
     border-radius: 8px;
     font-size: 1.2em;
     background-color: #18d26e;
@@ -57,7 +57,7 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
   #resetBtn {
-    padding: 8px 6px;
+    padding: 10px 15px;
     border-radius: 8px;
     font-size: 1.2em;
     background-color: #e84393;
