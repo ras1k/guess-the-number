@@ -1,4 +1,4 @@
 # GUess The Number Game
 
 ## Links:
-[Live](https://ras1k.github.io/guess-the-number/)
+[Live Link](https://ras1k.github.io/guess-the-number/)
